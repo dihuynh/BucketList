@@ -4,7 +4,6 @@ var app = express();
 var path = require('path');
 
 // Set server port
-app.listen(4000);
 console.log('server is running');
 // views as directory for all template files
 app.set('views', path.join(__dirname, 'views'));
